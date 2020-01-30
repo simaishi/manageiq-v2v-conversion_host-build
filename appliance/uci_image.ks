@@ -5,6 +5,9 @@ logging --level=debug
 #version=DEVEL
 install
 
+repo --name=BaseOS    --baseurl=http://mirror.centos.org/centos/8/BaseOS/x86_64/os/
+repo --name=AppStream --baseurl=http://mirror.centos.org/centos/8/AppStream/x86_64/os/
+
 lang en_US.UTF-8
 keyboard us
 rootpw  --iscrypted $1$DZprqvCu$mhqFBjfLTH/PVvZIompVP/
